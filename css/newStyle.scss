@@ -55,17 +55,12 @@ body{
                             padding: 5px;
 
                         }
-
                     }   
                 }
             }
-                
-
-            
-
         }
-
     }
+
     main{        
         section{
             .carousel{
@@ -152,14 +147,23 @@ body{
         }
     }  
     
-    article{          
+    article{    
+
     .contendorimagen{
         display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-gap: 50px;
             grid-auto-rows: minmax(100px, auto);
-        width: 200px;
-        
+    }
+
+    .contenedorImagenNosotros{
+        display: flex;
+        justify-content: space-around;
+
+        img{
+            width: 300px;
+            height: 200px;
+        }
     }
     }
 

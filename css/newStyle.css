@@ -126,7 +126,14 @@ body article .contendorimagen {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   grid-auto-rows: minmax(100px, auto);
-  width: 200px;
+}
+body article .contenedorImagenNosotros {
+  display: flex;
+  justify-content: space-around;
+}
+body article .contenedorImagenNosotros img {
+  width: 300px;
+  height: 200px;
 }
 body footer .redes {
   display: flex;
