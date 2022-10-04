@@ -1,8 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+p {
+  color: #4464AD;
+}
+
 body {
   background-color: whitesmoke;
   max-width: 80%;
   margin: auto;
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 body header {
   background-color: #FFCAD4;
@@ -35,7 +41,7 @@ body header nav #header ul li {
 }
 body header nav #header ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #131313;
   font-weight: "Poppins";
   font-style: initial;
   padding: 5px;
@@ -47,7 +53,7 @@ body header nav #header ul li a:hover {
   padding: 5px;
 }
 body main section .carousel {
-  border-style: solid;
+  border-style: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -62,11 +68,22 @@ body main section .carousel img:hover {
   transition: 0.7s;
 }
 body main section .razones {
-  color: #000000;
+  color: #3b3b3b;
 }
 body main section p {
   color: #4464AD;
-  font-family: "Gill Sans";
+}
+body main .titulo {
+  color: #3b3b3b;
+}
+body main .art1 {
+  color: #3b3b3b;
+}
+body main .art2 {
+  color: #3b3b3b;
+}
+body main .art3 {
+  color: #3b3b3b;
 }
 body main .adopciones {
   display: grid;
@@ -104,12 +121,20 @@ body main .adopciones .art3 {
 body main .adopciones .art3 img {
   width: 80%;
 }
+body article .contendorimagen {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  grid-auto-rows: minmax(100px, auto);
+  width: 200px;
+}
 body footer .redes {
   display: flex;
   align-items: center;
 }
 body footer .redes h3 {
-  font-size: 24px;
+  font-size: 18px;
+  color: #f4acb7;
 }
 body footer .redes img {
   width: 40px;
@@ -121,7 +146,7 @@ body footer .infoFooter {
   text-align: center;
 }
 body footer .infoFooter p {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 @keyframes animacioncarousel {
@@ -134,6 +159,10 @@ body footer .infoFooter p {
 }
 .informacionContenedor div {
   text-align: center;
+}
+
+h1 {
+  color: #3b3b3b;
 }
 
 .requisitos h1 {

@@ -1,10 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+p{
+    color: #4464AD;            
+}
 
 body{
     background-color: whitesmoke;
     max-width: 80%;
     margin: auto;
     font-family: 'Poppins',sans-serif;
+    font-weight: 400;
     header{
         background-color: #FFCAD4;
         text-align-last: center; 
@@ -39,7 +43,7 @@ body{
                         color: #4464AD;
                         a{
                             text-decoration:none;
-                            color: #000000;
+                            color: #131313;
                             font-weight:'Poppins';
                             font-style: initial ;
                             padding: 5px;
@@ -62,10 +66,10 @@ body{
         }
 
     }
-    main{
+    main{        
         section{
             .carousel{
-                border-style: solid;
+                border-style: none;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -82,17 +86,28 @@ body{
 
             }
             .razones{
-                color: #000000;
-                h1{
-                    
-                }
-
+                color: #3b3b3b;
+            
             }
             p{
-                color: #4464AD;
-                font-family: 'Gill Sans';
-
+                color: #4464AD;            
             }
+        }
+
+        .titulo{
+            color:#3b3b3b
+        }
+
+        .art1{
+            color: #3b3b3b
+        }
+        
+        .art2{
+            color: #3b3b3b
+        }
+
+        .art3{
+            color: #3b3b3b
         }
 
         .adopciones{
@@ -137,13 +152,25 @@ body{
         }
     }  
     
+    article{          
+    .contendorimagen{
+        display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 50px;
+            grid-auto-rows: minmax(100px, auto);
+        width: 200px;
+        
+    }
+    }
+
     footer{
 
         .redes{
             display: flex;
             align-items: center;
             h3{
-                font-size: 24px;
+                font-size: 18px;
+                color:#f4acb7
             }
             img{
                 width: 40px;
@@ -156,7 +183,7 @@ body{
         .infoFooter{
             text-align: center;
             p{
-                font-size: 10px;
+                font-size: 13px;
             }
         }
     }
@@ -176,6 +203,9 @@ body{
         text-align: center;
     }
 }
+    h1{
+        color: #3b3b3b
+    }
 
 //-------requisitos
 
